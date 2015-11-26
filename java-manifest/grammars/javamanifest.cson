@@ -1,0 +1,21 @@
+'scopeName': 'source.java-manifest'
+'name': 'Java Manifest'
+'fileTypes': [
+  'MANIFEST.MF'
+]
+'patterns': [
+  {
+    'begin': '(^[a-zA-Z0-9\\-_]+)'
+    'beginCaptures':
+      '1':
+        'name': 'support.constant.java-properties'
+    'end': ':'
+  }
+  {
+    'begin': '(\\s.+)'
+    'beginCaptures':
+      '1':
+        'name': 'string.unquoted.java-properties'
+    'end': '\\n'
+  }
+]

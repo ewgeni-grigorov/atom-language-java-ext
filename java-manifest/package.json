@@ -1,0 +1,18 @@
+{
+  "name": "language-java-manifest",
+  "version": "0.0.1",
+  "description": "Java JAR Manifest support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/ewgeni-grigorov/atom-language-java-ext",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ewgeni-grigorov/atom-language-java-ext.git"
+  },
+  "license": "Apache License, Version 2.0",
+  "bugs": {
+    "url": "https://github.com/ewgeni-grigorov/atom-language-java-ext/issues"
+  }
+}
